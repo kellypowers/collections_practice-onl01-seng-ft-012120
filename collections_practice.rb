@@ -48,7 +48,7 @@ def kesha_maker(array)
 end
 
 def find_a(array)
-  array.collect {|i| i[1] ==a}
+  array.collect {|i| i[1] == a}
 end
   
 def sum_array(array)
