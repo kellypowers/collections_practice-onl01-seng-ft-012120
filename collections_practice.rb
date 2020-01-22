@@ -50,7 +50,9 @@ end
 def find_a(array)
   array.map do |i| 
     if i[0] == 'a'
-      puts i 
+      i
+    else 
+      array.delete(i)
     end
   end
 end
