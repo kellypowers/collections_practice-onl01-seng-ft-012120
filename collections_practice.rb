@@ -13,3 +13,6 @@ def sort_array_char_count(array)
   new_array = array.sort{|x, y| x.count <=> y.count}
   new_array
 end
+
+def swap_elements(array)
+  new_array = array.sort{||}
