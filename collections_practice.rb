@@ -52,7 +52,7 @@ def find_a(array)
   array.map do |i| 
     puts " i is #{i} i0 is #{i[0]}"
     if i[0] != 'a'
-      array[i].delete
+      i.delete
     end
   end
   puts array
