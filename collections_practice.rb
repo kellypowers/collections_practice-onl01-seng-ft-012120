@@ -69,9 +69,7 @@ end
 
 def add_s(array)
   array.each_with_index do |i| 
-    if i != 1 
-      array.each{|j| j << 's'}
-    end
+    puts "i si #{i}" 
   end
-  array
+  #array
 end 
