@@ -53,10 +53,10 @@ def find_a(array)
   array.map do |i| 
     #puts " i is #{i} i0 is #{i[0]}"
     if i[0] == 'a'
-      puts i 
+      new_array<< i 
     end
   end
-  #puts new_array
+  new_array
 end
 
 find_a(["apple", "orange", "pear", "avis", "arlo", "ascot" ])
