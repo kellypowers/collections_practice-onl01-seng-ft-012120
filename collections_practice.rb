@@ -50,7 +50,7 @@ end
 def find_a(array)
   array.map do |i| 
     if i[0] != 'a'
-      
+      array.delete_at(i.index)
 end
   
 def sum_array(array)
