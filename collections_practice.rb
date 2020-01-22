@@ -54,10 +54,10 @@ def find_a(array)
       array.delete(i)
     end
   end
-  array
+  puts array
 end
 
-
+find_a(["apple", "orange", "pear", "avis", "arlo", "ascot" ])
   
 def sum_array(array)
 end 
