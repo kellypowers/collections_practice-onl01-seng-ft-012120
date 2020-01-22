@@ -53,7 +53,7 @@ def find_a(array)
     puts " i is #{i} i0 is #{i[0]}"
     #if i[0] != 'a'
       #array.delete(i)
-    end
+   # end
   end
   puts array
 end
