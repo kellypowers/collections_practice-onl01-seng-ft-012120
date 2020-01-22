@@ -50,7 +50,7 @@ end
 def find_a(array)
   array.map do |i| 
     if i[0] == 'a'
-      i 
+      puts i 
     end
   end
 end
