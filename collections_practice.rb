@@ -15,7 +15,9 @@ def sort_array_char_count(array)
 end
 
 def swap_elements(array)
-  i = 0 
-  for i < array.length
+   swap1 = array[1] 
+   swap2 = array[2]
+  array[1] = swap2
+  array[2] = swap1
   array
 end
