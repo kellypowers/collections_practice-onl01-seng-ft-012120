@@ -71,6 +71,7 @@ def add_s(array)
   array.each_with_index do |i, j| 
     if j != 1 
       i << 's'
+    end
   end
   #array
 end 
