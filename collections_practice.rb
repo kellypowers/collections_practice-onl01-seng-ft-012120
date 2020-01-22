@@ -17,5 +17,5 @@ end
 def swap_elements(array)
   i = 0 
   for i < array.length
-  new_array
+  array
 end
