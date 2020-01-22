@@ -68,8 +68,8 @@ def sum_array(array)
 end 
 
 def add_s(array)
-  array.each_with_index do |i| 
-    puts "i si #{i}" 
+  array.each_with_index do |i, j| 
+    puts "i si #{i} j is #{j}" 
   end
   #array
 end 
