@@ -34,6 +34,6 @@ end
 #swap_elements_from_to(["a", "b", "c"],0,2)
 
 def reverse_array(array)
-  new_array = array.sort{|x, y| y<=>x}
+  new_array = array.reverse
   new_array
 end
