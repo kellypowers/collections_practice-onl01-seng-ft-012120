@@ -21,3 +21,11 @@ def swap_elements(array)
   array[2] = swap1
   array
 end
+
+def swap_elements_from_to(array, index, destination_index)
+  swap1 = array[index]
+  swap2 = array[destination_index]
+  array[index] = swap2
+  array[destination_index] = swap1
+  array
+end
