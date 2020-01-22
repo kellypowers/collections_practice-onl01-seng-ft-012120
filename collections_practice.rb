@@ -49,13 +49,15 @@ end
 
 def find_a(array)
   array.map do |i| 
-    puts " i is #{i} i0 is #{i[0]}"
+    #puts " i is #{i} i0 is #{i[0]}"
     if i[0] != 'a'
       array.delete(i)
     end
   end
   array
 end
+
+
   
 def sum_array(array)
 end 
