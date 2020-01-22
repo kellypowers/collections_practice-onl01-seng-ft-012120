@@ -51,9 +51,8 @@ def find_a(array)
   puts "original array #{array}"
   array.map do |i| 
     puts " i is #{i} i0 is #{i[0]}"
-    if i[0] == 'a'
-      i
-      #array.delete(i)
+    if i[0] != 'a'
+      array[i].delete
     end
   end
   puts array
