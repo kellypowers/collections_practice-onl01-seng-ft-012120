@@ -55,6 +55,7 @@ def find_a(array)
       array.delete(i)
     end
   end
+  array
 end
   
 def sum_array(array)
