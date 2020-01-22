@@ -69,7 +69,8 @@ end
 
 def add_s(array)
   array.each_with_index do |i, j| 
-    puts "i si #{i} j is #{j}" 
+    # puts "i si #{i} j is #{j}" 
+    
   end
   #array
 end 
