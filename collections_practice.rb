@@ -48,15 +48,15 @@ def kesha_maker(array)
 end
 
 def find_a(array)
-  puts "original array #{array}"
+  #puts "original array #{array}"
   new_array = []
   array.map do |i| 
-    puts " i is #{i} i0 is #{i[0]}"
+    #puts " i is #{i} i0 is #{i[0]}"
     if i[0] == 'a'
-      new_array<< i 
+      puts i 
     end
   end
-  puts new_array
+  #puts new_array
 end
 
 find_a(["apple", "orange", "pear", "avis", "arlo", "ascot" ])
