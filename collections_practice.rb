@@ -62,7 +62,9 @@ end
 find_a(["apple", "orange", "pear", "avis", "arlo", "ascot" ])
   
 def sum_array(array)
-  array.
+  total = 0 
+  array.each {|i| total += i }
+  total
 end 
   
 def add_s(array)
