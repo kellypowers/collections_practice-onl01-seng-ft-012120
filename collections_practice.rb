@@ -41,9 +41,7 @@ end
 def kesha_maker(array)
   new_array = []
   array.each do |i|
-    i.each do |j|
-      j[3] = "$"
-    end
+    i[3] = "$"
     new_array<< i 
   end
   new_array
