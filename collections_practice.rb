@@ -54,7 +54,7 @@ def find_a(array)
     if i[0] != 'a'
       i
       #array.delete(i)
-   # end
+    end
   end
   puts array
 end
