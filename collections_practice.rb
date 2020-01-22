@@ -52,6 +52,7 @@ def find_a(array)
     if i[0] != 'a'
       array.delete_at(i.index)
     end
+  end
 end
   
 def sum_array(array)
