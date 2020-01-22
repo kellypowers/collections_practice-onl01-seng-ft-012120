@@ -49,6 +49,7 @@ end
 
 def find_a(array)
   array.map do |i| 
+    puts " i is #{i}"
     if i[0] != 'a'
       array.delete(i)
     end
