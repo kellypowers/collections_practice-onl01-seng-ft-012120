@@ -68,6 +68,6 @@ def sum_array(array)
 end 
 
 def add_s(array)
-  new_array= array.each {|i| i << 's'}
+  array.each {|i| i << 's'}
   new_array
 end 
