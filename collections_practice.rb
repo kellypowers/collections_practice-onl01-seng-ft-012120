@@ -50,9 +50,10 @@ end
 def find_a(array)
   array.map do |i| 
     if i[0] == 'a'
-      return i 
+      i 
     end
   end
+  array
 end
   
 def sum_array(array)
